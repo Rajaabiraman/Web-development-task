@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.rj-heading{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(190, 202, 20);
+    letter-spacing:1.5px;
+}
+.team-sec{
+    width: 100%;
+}
+.team-sec .container{
+    width: 80%;
+    margin: auto;       
+}
+.team-sec .container .row{
+    width: 60%;
+    margin: auto;
+}
+.team-sec .container .row .title{
+    text-align: center;
+    margin-top: 50px;
+}
+.team-sec .container .row .title h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1f0d5b;
+}
+.team-sec .container .row .title p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color: #0c859a;
+}
+.team-sec .container .teamcard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.team-sec .container .teamcard .card{
+    width: 100%;
+    background-color: #18886678;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+}
+.team-sec .container .teamcard .card:hover{
+    background-color: #2dc6cb72;
+    transition: 0.3s;
+}
+.team-sec .container .teamcard .card .image-sec img{
+     height: 150px;
+     width: 150px;
+     border-radius: 50%;
+     border: 6px solid;
+}
+.team-sec .container .teamcard .card .content{
+    width: 100%;
+    text-align: center;
+}
+.team-sec .container .teamcard .card h3{
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color:#0c859a;
+}
+.team-sec .container .teamcard .card h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #040505;
+}
+.team-sec .container .teamcard .card p {
+    font-size: 16px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color:#1f0d5b
+}
+@media screen and (max-width:900px){
+    .team-sec .container .teamcard { 
+            grid-template-columns: repeat(2, 1fr);
+        }
+}
+
+@media screen and (max-width:768px) {
+    .team-sec .container .teamcard {
+        grid-template-columns:1fr;
+    }
+}
+
+
+ .testing-team {
+    width: 100%;
+}
+
+.testing-team .container {
+    width: 80%;
+    margin: auto;
+}
+
+.testing-team .container .row {
+    text-align: center;
+   
+    margin-top: 50px;
+}
+
+.testing-team .container .row .title h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1f0d5b;
+}
+
+.testing-team .container .row .title p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color: #0c859a;
+}
+
+.testing-team .container .teamcard {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  
+    flex-wrap: wrap;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testing-team .container .teamcard .card {
+    width: 30%;
+  
+    background-color: #18886678;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.testing-team .container .teamcard .card:hover {
+    background-color: #2dc6cb72;
+    transition: 0.3s;
+}
+
+.testing-team .container .teamcard .card .image-sec {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testing-team .container .teamcard .card .image-sec img {
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid;
+}
+
+.testing-team .container .teamcard .card .content {
+    width: 100%;
+    text-align: center;
+}
+
+.testing-team .container .teamcard .card h3 {
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #0c859a;
+}
+
+.testing-team .container .teamcard .card h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #040505;
+}
+
+.testing-team .container .teamcard .card p {
+    font-size: 16px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color: #1f0d5b;
+}
+
+@media screen and (max-width: 900px) {
+    .testing-team .container .teamcard .card {
+        width: 45%;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testing-team .container .teamcard .card {
+        width: 100%;
+       
+    }
+}
+
